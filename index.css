@@ -1,1 +1,61 @@
-/* Put your style information here! */
+body {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+a {
+    color: #F13C20;
+}
+
+h1 {
+    padding-top: 2%;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ h2 {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ h3 {
+     padding-top: 2%;
+     font-family: 'Poppins', sans-serif;
+  }
+
+img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+li {
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.section {
+    background-color: #C5CBE3;
+    padding: 2%;
+}
+
+.section-plain {
+    padding: 2%;
+}
+
+.navbar-custom {
+    text-align: left;
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-link{
+    text-align: left;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover {
+    color: #F13C20;
+}
+
+
