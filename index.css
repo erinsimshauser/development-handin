@@ -1,16 +1,22 @@
-body {
+.custom-body {
     font-family: 'Raleway', sans-serif;
     padding-top: 2%;
     padding-right: 10%;
     padding-left: 10%;
 }
 
-a {
+.custom-a {
     color: #F13C20;
+    text-decoration: none;
+}
+.custom-a:hover{
+    color: #F13C20;
+    text-decoration: underline;
 }
 
 h1 {
     padding-top: 2%;
+    padding-bottom: 2%;
     font-family: 'Poppins', sans-serif;
  }
 
@@ -20,6 +26,7 @@ h1 {
 
  h3 {
      padding-top: 2%;
+     padding-bottom: 2%;
      font-family: 'Poppins', sans-serif;
   }
 
@@ -36,6 +43,7 @@ li {
 .section {
     background-color: #C5CBE3;
     padding: 2%;
+    border-radius: 20px;
 }
 
 .section-plain {
@@ -56,6 +64,7 @@ li {
 
 .nav-link:hover {
     color: #F13C20;
+    text-decoration: underline;
 }
 
 
